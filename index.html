@@ -1,7 +1,17 @@
 <html>
 <head>
 	<title>Flower-Catalog</title>
-	<link rel="stylesheet" type="text/css" href="flower.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		function hideImage() {
+			document.getElementById('image2').style.visibility = 'hidden';
+			setTimeout(showImage,1000);
+		}
+		function showImage() {
+			document.getElementById('image2').style.visibility = 'visible'
+		}
+
+	</script>
 </head>
 <body>
 	<h1>Flower catalog</h1><hr>
@@ -14,7 +24,7 @@
 				<li><a href="abeliophyllum.html">Abeliophyllum</a></li>
 				<li><a href="ageratum.html">Ageratum</a></li>
 			</ul>
-			<img src="af.gif" id="image2">
+			<img src="af.gif" id="image2" onclick="hideImage()">
 			<br><br><a href="guest.html">Guest Book</a>
 		</div>
 	</section>
