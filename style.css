@@ -1,0 +1,20 @@
+body {
+	padding: 30px 60px 30px 60px;
+}
+
+h1 {
+	text-align: center;
+	color: #FFB56C;
+}
+section{
+	display: inline-flex;
+}
+
+#image2 {
+	padding-left: 60px;
+}
+
+#para {
+	margin-top: 100px;
+	margin-left: 10px;
+}
