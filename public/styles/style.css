@@ -10,11 +10,19 @@ section{
 	display: inline-flex;
 }
 
-#image2 {
-	padding-left: 60px;
+#jar {
+	padding-left: 40px;
 }
 
 #para {
 	margin-top: 100px;
 	margin-left: 10px;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
 }
